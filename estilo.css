@@ -1,0 +1,444 @@
+@font-face {
+  font-family: "Titulo";
+  src: url('fontes/AustieBostKittenKlub.ttf');
+}
+
+@font-face {
+  font-family: "Titulo2";
+  src: url('fontes/PORKYS_.ttf');
+}
+
+@font-face {
+  font-family: "TextoComum";
+  src: url('fontes/ArbutusSlab-Regular.ttf');
+}
+
+@font-face {
+  font-family: "TextoLink";
+  src: url('fontes/Amaranth-Regular.ttf');
+}
+
+@font-face {
+  font-family: "TextoInformativo";
+  src: url('fontes/TheDolbal-Brush.ttf');
+}
+
+input[type=submit]{
+  background-color: lightgreen;
+  border-radius: 7px;
+  font-family: Titulo2;
+  width: 80px;
+  height: 40px;
+}
+
+header {
+  padding: 30px 15px 70px 15px;
+  border: 1px solid green;
+  background-color: #98FB98;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+header h1 {
+  display: inline;
+  font-family: Titulo;
+  font-size: 60px;
+}
+
+header button {
+  float: right;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 400px;
+}
+
+body, html {
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+  background-color: lightblue;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+article {
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 15px;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+a:visited{
+  color: blue;
+}
+
+a:hover {
+  background-color: deepskyblue;
+  border-radius: 7px;
+}
+
+label {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#background {
+  background-size: 300px 300px;
+  background-color: lightpink;
+  background-repeat: repeat;
+}
+
+#barra-menu ul {
+  padding-left: 0;
+  padding-top: 0.25em;
+  margin-bottom: 0;
+  background-color: lightblue;
+  text-align: center;
+}
+
+#barra-menu li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Special Elite", cursive;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
+
+#barra-menu li:hover {
+  background-color: lightblue;
+  opacity: 0.7;
+}
+
+#barra-menu a {
+  text-decoration: none;
+  text-shadow: 1px 1px white;
+  font-family: Titulo2;
+  color: black;
+}
+
+#user {
+  margin-right: 5px;
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  font-family: TextoComum;
+}
+
+#user p {
+  margin-bottom: 0;
+}
+
+#user a {
+  right: 5px;
+  color: #FF69B4;
+}
+
+#sobreImg {
+  width: 450px;
+  float: right;
+  border: lightblue dotted 5px;
+  border-radius: 200px;
+  right: 20px;
+  margin: 10px;
+}
+
+#conteudo article {
+  margin: 18px;
+  margin-top: 0px;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 400px;
+}
+
+#conteudo {
+  padding: 10px;
+  margin: 10px;
+  width: 65%;
+  position: absolute;
+  left: 16%;
+}
+
+#preguica {
+  height: 300px;
+}
+
+#adsdireita {
+  float: right;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 15px;
+  padding: 10px;
+  width: 15%;
+  height: 60%;
+  position: relative;
+}
+
+#adsesquerda {
+  float: left;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 15px;
+  padding: 10px;
+  width: 15%;
+  height: 60%;
+  position: relative;
+}
+
+#conteudo h2, #conteudo label {
+  font-size: 38px;
+  font-family: Titulo2;
+}
+
+#coment {
+  margin: 20px;
+  height: 520px;
+}
+
+#info {
+  float: right;
+  position: relative;
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 70px;
+  font-family: TextoInformativo;
+}
+
+#conteudo p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: TextoComum;
+}
+
+#destaque{
+  font-family: TextoComum;
+}
+
+/* section do #destaque */
+
+#tituloSobre {
+  text-align: center;
+  font-size: 50px;
+}
+
+#usuario {
+  height: 28px;
+}
+
+#senha {
+  height: 28px;
+}
+
+#friends {
+  margin: 20px 5px 5px 5px;
+  width: 10%;
+  max-height: 50px;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  right: 17%;
+}
+
+#friends h2 {
+  text-align: center;
+  font-family: Titulo2;
+}
+
+#groups {
+  top: 550px;
+  margin: 20px 5px 5px 5px;
+  width: 10%;
+  max-height: 50px;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  right: 17%;
+}
+
+#groups h2 {
+  text-align: center;
+  font-family: Titulo2;
+}
+
+#photos {
+  top: 900px;
+  margin: 20px 5px 5px 5px;
+  width: 10%;
+  max-height: 50px;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  right: 17%;
+}
+
+#photos img {
+  max-height: 50px;
+}
+
+#photos h2 {
+  text-align: center;
+  font-family: Titulo2;
+}
+
+#perfil {
+  margin-top: 15px;
+  position: absolute;
+  left: 17%;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  width: 750px;
+  height: 200px;
+}
+
+#perfil img {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+}
+
+#perfil h3 {
+  font-family: Titulo2;
+  position: relative;
+  left: 190px;
+}
+
+#perfil p {
+  font-family: TextoComum;
+  position: relative;
+  left: 190px;
+}
+
+#Info {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 190px;
+}
+
+#Info img {
+  height: 35px;
+  width: 35px;
+}
+
+#posts{
+  margin: 18px;
+  margin-top: 0px;
+  width: 95%;
+  position: absolute;
+  left: 16%;
+}
+
+#posts article {
+  width: 64%;
+}
+
+#pubPerfil {
+  position: absolute;
+  margin: 10px;
+  top: 440px;
+  left: 16%;
+  width: 750px;
+}
+
+#piechart {
+  position: absolute;
+  right: 22%;
+  top: 700px;
+}
+
+#slide {
+  width: 800px;
+  height: 400px;
+  position: absolute;
+  left: 20%;
+  margin: 18px;
+}
+
+#mapa {
+  position: absolute;
+  left: 20%;
+  top: 1000px;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  width: 800px;
+}
+
+#mapa iframe {
+  position: relative;
+  left: 10%;
+}
+
+#recentes {
+  position: absolute;
+  left: 20%;
+  top: 100%;
+  border: lightblue solid 2px;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 800px;
+  height: 300px;
+  padding: 10px;
+}
+
+.atual {
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.cadastro {
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: lightblue solid 2px;
+  width: 400px;
+  left: 35%;
+}
+
+.custom-file-label {
+  position: relative;
+}
+
+.fotofeed {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.nomefeed {
+  position: relative;
+  left: 70px;
+  margin-top: 0px;
+  font-size: 25px;
+  height: 5px;
+}
+
+.datafeed {
+  position: relative;
+  left: 70px;
+  font-size: 20px;
+}
+
+.textofeed {
+  position: relative;
+  font-size: 15px;
+}
+
+.feedback {
+  border: lightblue solid 2px;
+  background-color: rgba(220,220,220, 1);
+  width: 64%;
+  position: relative;
+  margin: 15px;
+  margin-top: 0;
+  padding: 15px;
+}

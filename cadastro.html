@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Help Pet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="fotos/icone/favicon.ico" type="image/x-icon">
+  </head>
+  <body background="fotos/patternbr.png" id="background">
+    <header>
+      <h1>  Help Pet</h1>
+      <section id="user">
+        <p>
+          <label> E-mail:</br>
+            <input type="text" class="form-control" aria-describedby="basic-addon1" size="20" id="usuario">
+          </label>
+        </p>
+        <p>
+          <label> Senha:</br>
+            <input type="text" class="form-control" aria-describedby="basic-addon1" size="20" id="senha">
+          </label><p></p>
+        </p>
+        <a href="cadastro.html">Cadastrar</a>
+        <button id="login">Login</button>
+      </section>
+    </header>
+    <section id="barra-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="feed.html">Feed</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </section>
+    <section id="adsdireita">
+      <!-- PROPAGANDA   -->
+      <p>PROPAGANDA</p>
+    </section>
+    <section id="adsesquerda">
+      <!-- PROPAGANDA   -->
+      <p>PROPAGANDA</p>
+    </section>
+    <section class="cadastro">
+      <h1 id="tituloSobre">Cadastro</h1>
+      <label> Nome Completo:</br>
+        <input id="camponome" type="text" class="form-control" placeholder="Ex: José Carvalho Lima" aria-label="Username" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> Telefone:</br>
+        <input id="campotel" type="text" class="form-control" placeholder="Ex: (31)99999-9999" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> E-mail:</br>
+        <input id="campoemail" type="text" class="form-control" placeholder="Ex: helppet@helppet.com" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> Estado:</br>
+        <input id="campoestado" type="text" class="form-control" placeholder="Ex: Minas Gerais" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> Cidade:</br>
+        <input id="campocidade" type="text" class="form-control" placeholder="Ex: Belo Horizonte" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> Bairro:</br>
+        <input id="campobairro" type="text" class="form-control" placeholder="Ex: Nova Gameleira" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> Rua:</br>
+        <input id="camporua" type="text" class="form-control" placeholder="Ex: Avenida Amazonas" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> Senha:</br>
+        <input id="camposenha" type="text" class="form-control" aria-describedby="basic-addon1" size="30"><p></p>
+      </label><p></p>
+      <label> Escolha uma foto: </br></label>
+      <label class="custom-file-label" for="inputGroupFile01">
+        <input type="file" class="custom-file-input" id="inputGroupFile01" size="30">
+      </label>
+      <button id="receberDados">Cadastrar</button>
+    </section>
+    <footer>
+      <p>Help Pet®</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

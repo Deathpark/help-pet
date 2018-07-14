@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Perfil | Help Pet </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.win.js"></script>
+    <script src="tether.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $("[data-toggle='popover'").popover();
+      });
+    </script>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="fotos/icone/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="fotos/icone/favicon.ico" type="image/x-icon">
+  </head>
+  <body background="fotos/patternbr.png" id="background">
+    <header>
+      <h1>Help Pet</h1>
+    </header>
+    <section id="barra-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html" >Sobre</a></li>
+        <li><a href="feed.html">Feed</a></li>
+        <li><a href="perfil.html" class="atual">Perfil</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </section>
+    <section id="adsdireita">
+      <!-- PROPAGANDA   -->
+      <p>PROPAGANDA</p>
+    </section>
+    <section id="perfil">
+      <img src="data:image/jpeg;base64,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">
+      <h3>Seu nome estará aqui</h3>
+      <p></p>
+      <p>Sua descrição ficará aqui</p>
+      <p>Idade: XX anos;  XX publicações; XX doações; XX reputação</p>
+      <button id="Info" type="button" class="btn btn-secondary" data-toggle="popover" data-container="body" title="informação" data-content="1 ponto de reputação é recebido toda vez que você adota um animal e 2 pontos de reputação são dados por cada animal doado">i</button>
+      <!--<label for="publicacao"> Nova Publicação <p></p></label>
+        <textarea id="publicacao" name="coment" rows="16" cols="85" placeholder="Digite aqui sua nova publicação."></textarea>-->
+    </section>
+    <section>
+      <article id="pubPerfil">
+        <img src="fotos/pata.png" class="fotofeed">
+        <p class="nomefeed">Stella</p>
+        <p class="datafeed">06:10 - 8 de julho de 2018</p>
+        <p class="textofeed">Oi amigos acordei com minha cachorrinha passando mal e preciso de uma carona para levar ela no veterinário.</p>
+      </article>
+    </section>
+    <section id="friends">
+      <h2>Amigos</h2>
+      <ul class="list-group">
+        <li class="list-group-item">José</li>
+        <li class="list-group-item">Maria</li>
+        <li class="list-group-item">Luis</li>
+        <li class="list-group-item">Vinicius</li>
+        <li class="list-group-item">Enza</li>
+      </ul>
+    </section>
+    <section id="groups">
+      <h2>Grupos</h2>
+      <ul class="list-group">
+        <li class="list-group-item">We love Cats</li>
+        <li class="list-group-item">Cats Forever</li>
+        <li class="list-group-item">Cats <3</li>
+        <li class="list-group-item">Cats *-*</li>
+        <li class="list-group-item">Gatos são amor</li>
+      </ul>
+    </section>
+    <section id="photos">
+      <h2>Fotos</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><img src="https://www.anda.jor.br/wp-content/uploads/2017/12/11.jpg"></li>
+        <li class="list-group-item"><img src="http://s2.glbimg.com/cYa3pKAKIPidjKyGPuAd8T4Hd1I=/e.glbimg.com/og/ed/f/original/2017/08/21/dog-2570398_960_720.jpg"></li>
+        <li class="list-group-item"><img src="http://www.saopaulo.sp.gov.br/wp-content/uploads/2017/02/gato-divulga%C3%A7%C3%A3o-%C3%A1lbum-1024x682.jpg"></li>
+        <li class="list-group-item"><img src="https://blog.emania.com.br/content/uploads/2015/09/os-10-animais-mais-fofos-do-mundo-02.jpg"></li>
+        <li class="list-group-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnLu6nUIK7P1AHW6QYQMEBaL18FA4gcmETtFweuAEX8OCSNB9L_A"></li>
+      </ul>
+    </section>
+    <section id="adsesquerda">
+      <!-- PROPAGANDA   -->
+      <p>PROPAGANDA</p>
+    </section>
+    <section id="conteudo">
+      <!--ADICIONAR COISAS AQUI-->
+    </section>
+    <footer>
+      <p>Help Pet ®</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
